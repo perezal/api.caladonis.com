@@ -18,7 +18,7 @@ if dev_mode:
     # CORS_ORIGIN_ALLOW_ALL = True
 else:
     DEBUG = False
-    ALLOWED_HOSTS = ['www.caladonis.com', 'caladonis.com']
+    ALLOWED_HOSTS = ['www.api.caladonis.com', 'api.caladonis.com']
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SECURE_BROWSER_XSS_FILTER = True
