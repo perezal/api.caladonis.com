@@ -15,7 +15,7 @@ dev_mode = bool(os.getenv('DJANGO_DEVELOPMENT'))
 if dev_mode:
     DEBUG = True
     ALLOWED_HOSTS = []
-    # CORS_ORIGIN_ALLOW_ALL = True
+    CORS_ORIGIN_ALLOW_ALL = True
 else:
     DEBUG = False
     ALLOWED_HOSTS = ['www.api.caladonis.com', 'api.caladonis.com']
